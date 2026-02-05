@@ -7,13 +7,19 @@
 3. add your fork to the main master branch - > git remote add upstream <link>
 4. check by using git remote -vv 
 	
-**#2.	How to push code to git repository 1st time**
-1. git init -> to initiate the git in the local repository
-2. git add . / git add files/folder name
-3. git commit -m "Message"
-4. git push -u origin master / git push -f 
+**#2.	How to push code to new git repository 1st time**
+You have already created a new git repository on github
+1. git clone empty repository 
+2. git clone <fork_git_clone_link>
+2. git remote add <master_clone_link>
+4. git remote --v
+5. Later go to local folder, 
+6. git init -> to initiate the git in the local repository
+7. git add . / git add files/folder name
+8. git commit -m "Message"
+9. git push -u origin master / git push -f 
 
-**#3.To create a new branch **
+**#3.To create a new branch**
 1. git checkout -b <Newbranchname>
 
 **#4 To list all the branch**
