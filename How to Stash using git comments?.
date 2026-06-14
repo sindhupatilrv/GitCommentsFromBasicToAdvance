@@ -1,4 +1,4 @@
-Problem :Whenever user wants to shift to new branches or new work stash can help us to save local branch work
+##Problem : Whenever user wants to shift to new branches from master branch, Stash can be helpfull or new work stash can help us to save local branch work
 Usage :
 git stash save "any_name" - from here code will be stored inside your Git repository’s .git directory, under the stash list
 
